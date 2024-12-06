@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.web_top {
+    display: flex;
+}
+
+.web_top ul, li,a {
+    text-decoration: none;
+}
