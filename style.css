@@ -4,8 +4,21 @@ body {
 
 .web_top {
     display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
 }
 
 .web_top ul, li,a {
     text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
 }
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width: 45%;
+}
+
