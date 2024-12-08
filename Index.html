@@ -13,7 +13,7 @@
             </article>
             <nav class="nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" id="home">Home</a></li>
                     <li><a href="#">News</a></li>
                     <li><a href="#">Categories</a></li>
                 </ul>
@@ -25,5 +25,15 @@
             </article>
             </nav>
         </header>
+
+        <label for="search_list" id="choose_anime">Choose the Anime:</label>
+        <input list="list_anime_movie" id="search_list" name="list_anime_movie">
+        <datalist id="list_anime_movie">
+            <option value="Attack On Titan"></option>
+            <option value="First Step"></option>
+            <option value="Demon Slayer"></option>
+        </datalist>
+        <div id="add_text"></div>
+        <script type="module" src="Scripts.js"></script>
     </body>
 </html>
